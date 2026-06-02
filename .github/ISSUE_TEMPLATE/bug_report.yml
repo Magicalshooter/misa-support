@@ -5,6 +5,16 @@ labels:
   - bug
 
 body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - OBS Misa Translator
+        - VRC Misa Translator
+    validations:
+      required: true
+      
   - type: input
     id: version
     attributes:
